@@ -1,0 +1,46 @@
+.main_cont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card_cont{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+#heading{
+    text-align: center;
+}
+#tabledata{
+    width: 100%;
+    border-collapse: collapse;
+
+
+}
+.table_cont{
+    margin-top: 20px;
+}
+#tabledata thead{
+    background-color: rgb(31, 34, 78);
+    color: #fff;
+    margin-left: 20px;
+    vertical-align: middle;
+
+}
+#tabledata thead tr{
+    height: 2.5rem;
+    vertical-align: middle;
+    
+}
+tr:nth-child(even){
+    background-color: #d8ebf5;
+}
+#tabledata td{
+    padding:5px 50px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}

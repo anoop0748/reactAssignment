@@ -1,0 +1,26 @@
+.poup_main_cont{
+    width:  100%;
+    height: 100vw;
+    background-color: rgba(128, 128, 128, 0.26);
+}
+.poup_card_cont{
+    width: 40%;
+    height: 60%;
+    position: relative;
+    left: 30%;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#go_back{
+    width: 100%;
+    font-size: 30px;
+    text-align: end;
+    margin-right: 30px;
+}
